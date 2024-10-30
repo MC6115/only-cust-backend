@@ -30,3 +30,5 @@ app.delete("/removeReview", removeReview);
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
 console.log('We ARE LIVE');
+
+module.exports = app;
